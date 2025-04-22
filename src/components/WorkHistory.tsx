@@ -38,9 +38,15 @@ export function WorkHistory({ experiences }: WorkHistoryProps) {
             </div>
 
             <ul className="list-disc pl-5 mb-2 text-gray-700 space-y-1">
-              {experience.responsibilities.map((item, idx) => (
-                <li key={idx + 1}>{item}</li>
-              ))}
+              {experience.responsibilities.map((item, idx) => {
+                if(idx === 1) {
+                  return <li key={idx + 1}>Here's the link: <a className="text-blue-600 hover:underline hover:text-blue-800" href="https://movie-793bc.web.app/">https://movie-793bc.web.app/</a></li>
+                } else {
+                  return (
+                  <li key={idx + 1}>{item}</li>
+                )
+                }
+              })}
             </ul>
 
             {experience.achievements && (
@@ -48,7 +54,7 @@ export function WorkHistory({ experiences }: WorkHistoryProps) {
                 <p className="font-medium text-sm">Key Achievements:</p>
                 <ul className="list-disc pl-5 text-gray-700 space-y-1">
                   {experience.achievements.map((achievement, idx) => (
-                    <li key={idx}>{achievement}</li>
+                    <li key={idx + 1}>{achievement}</li>
                   ))}
                 </ul>
               </div>
@@ -60,7 +66,7 @@ export function WorkHistory({ experiences }: WorkHistoryProps) {
                 <div className="flex flex-wrap gap-1">
                   {experience.technologies.map((tech, idx) => (
                     <span 
-                      key={idx} 
+                      key={idx + 1} 
                       className="bg-gray-100 text-gray-700 px-2 py-0.5 rounded-md text-xs"
                     >
                       {tech}

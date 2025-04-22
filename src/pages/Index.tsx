@@ -17,23 +17,25 @@ const Index = () => {
     <ResumeContainer>
       <ResumeHeader
         name="Dibya Jyoti Borah"
-        location="Noida, India 201304"
-        phone="9365733647"
+        location="Noida, India 201301"
+        phone="9365733667"
         email="dibyajyotiborah469@gmail.com"
         website="www.dibborah.fun"
         linkedin="https://www.linkedin.com/in/dib-borah/"
+        github="https://github.com/dibborah"
       />
 
       <Summary 
-        text="Results-driven software specialist with 1.5+ years of experience in software engineering and problem solving. Skilled in Web dev, API integration, and building cool UI. Successfully increased platform performance by 40%. Passionate about building engaging UI experiences. Seeking to contribute my expertise for expansion."
+        text="Results-driven software specialist with 1.6+ years of experience in software engineering and problem solving. Skilled in Web dev, API integration, and building cool UI. Successfully increased platform performance by 40%. Passionate about building engaging UI experiences. Seeking to contribute my expertise for expansion."
       />
 
       <PortfolioSection 
         portfolioItems={[
           { title: "https://dibborah.fun", url: "https://dibborah.fun" },
-          { title: "https://dibborah.fun/luxuryview.site/", url: "https://dibborah.fun/luxuryview.site/" },
-          { title: "https://dibborah.fun/uber.am.site/", url: "https://dibborah.fun/uber.am.site/" },
-          { title: "https://dibborah.fun/recycleking.site/", url: "https://dibborah.fun/recycleking.site/" },
+          { title: "https://dibborah.fun.luxuryview.site/", url: "https://dibborah.fun.luxuryview.site/" },
+          { title: "https://dibborah.fun.bingecrave.com", url: "https://dibborah.fun.bingecrave.com" },
+          { title: "https://dibborah.fun.recycleking.site/", url: "https://dibborah.fun.recycleking.site/" },
+          { title: "https://dibborah.fun.vibegram.site/", url: "https://dibborah.fun.vibegram.site/" },
         ]}
       />
 
@@ -61,7 +63,7 @@ const Index = () => {
             location: "Noida, India",
             period: "October 2023 - Current",
             responsibilities: [
-              "Currently, we are building an exciting project for multi-tenant trip agency platfrom. It's an in-house project—a multi-tenant&amp;mg agency platform. For example: If you run a B2B service like MakeMyTrip.com, you can register on our platform and manage all your operations, including trip planning, payment registration, payments, and more.",
+              "Currently, we are building an exciting project, multi-tenant trip agency platfrom. It's an in-house project—a multi-tenant&amp;mg agency platform. For example: If you run a B2B service like MakeMyTrip.com, you can register on our platform and manage all your operations, including trip planning, payment registration, payments, and more.",
             ],
             achievements: [
               "Managed to optimize the platform's performance by 40% and decreased its bugs count by more than 60%."
