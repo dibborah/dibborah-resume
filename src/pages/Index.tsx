@@ -20,7 +20,8 @@ const Index = () => {
         location="Noida, India 201301"
         phone="9365733667"
         email="dibyajyotiborah469@gmail.com"
-        website="www.dibborah.fun"
+        // website="www.dibborah.fun"
+        website="https://dibborah.github.io/dibborah-portfolio/"
         linkedin="https://www.linkedin.com/in/dib-borah/"
         github="https://github.com/dibborah"
       />
