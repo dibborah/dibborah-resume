@@ -33,7 +33,7 @@ const Index = () => {
         portfolioItems={[
           { title: "https://dibborah.github.io/dibborah-portfolio/", url: "https://dibborah.github.io/dibborah-portfolio/" },
           { title: "https://dibborah.fun.luxuryview.site/", url: "https://dibborah.fun.luxuryview.site/" },
-          { title: "https://dibborah.fun.bingecrave.com", url: "https://dibborah.fun.bingecrave.com" },
+          // { title: "https://dibborah.fun.bingecrave.com", url: "https://dibborah.fun.bingecrave.com" },
           { title: "https://dibborah.fun.recycleking.site/", url: "https://dibborah.fun.recycleking.site/" },
           { title: "https://dibborah.fun.vibegram.site/", url: "https://dibborah.fun.vibegram.site/" },
         ]}
